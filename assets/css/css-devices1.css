@@ -1,0 +1,146 @@
+body {
+  background:#f1f1f1;
+}
+
+.center {
+  position:absolute;
+  margin:auto;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  width:606px;
+  height:200px;
+}
+
+.smartphone {
+  box-sizing:content-box;
+  float:left;
+  width:80px;
+  height:120px;
+  margin:40px 0 0 0;
+  border:5px black solid;
+  border-top-width:15px;
+  border-bottom-width:20px;
+  border-radius:10px;
+}
+
+.smartphone:before {
+  box-sizing:content-box;
+  content:'';
+  display:block;
+  width:15px;
+  height:3px;
+  margin:-9px auto;
+  background:white;
+  border-radius:4px;
+}
+
+.smartphone:after {
+  box-sizing:content-box;
+  content:'';
+  display:block;
+  width:12px;
+  height:12px;
+  margin:4px auto;
+  background:white;
+  border-radius:10px;
+}
+
+.smartphone .content_view {
+  box-sizing:content-box;
+  width:60px;
+  height:100px;
+  margin:15px 0 0 0;
+  padding:10px;
+  background:white;
+}
+
+.tablet {
+  box-sizing:content-box;
+  float:left;
+  width:120px;
+  height:160px;
+  margin:0 80px;
+  border:5px black solid;
+  border-top-width:15px;
+  border-bottom-width:20px;
+  border-radius:10px;
+}
+
+.tablet:before {
+  box-sizing:content-box;
+  content:'';
+  display:block;
+  width:15px;
+  height:3px;
+  margin:-9px auto;
+  background:white;
+  border-radius:4px;
+}
+
+.tablet:after {
+  box-sizing:content-box;
+  content:'';
+  display:block;
+  width:12px;
+  height:12px;
+  margin:4px auto;
+  background:white;
+  border-radius:10px;
+}
+
+.tablet .content_view {
+  box-sizing:content-box;
+  width:120px;
+  height:160px;
+  margin:15px 0 0 0;
+  background:white;
+  overflow:hidden;
+  z-index:1000;
+}
+
+.laptop {
+  box-sizing:content-box;
+  float:left;
+  width:200px;
+  height:120px;
+  margin:56px 0 0 0;
+  border:5px black solid;
+  border-radius:2px;
+}
+
+.laptop:before {
+  box-sizing:content-box;
+  content:'';
+  display:block;
+  position:absolute;
+  width:40px;
+  height:3px;
+  margin:126px 0 0 80px;
+  background:white;
+  z-index:1;
+}
+
+.laptop:after {
+  box-sizing:content-box;
+  content:'';
+  display:block;
+  position:absolute;
+  width:240px;
+  height:8px;
+  margin:6px 0 0 -20px;
+  background:black;
+  border-radius:2px;
+}
+
+.laptop .content_view {
+  box-sizing:content-box;
+  width:180px;
+  height:100px;
+  margin:0px 0 0 0;
+  padding:10px;
+  background:white;
+  overflow:hidden;
+}
+
